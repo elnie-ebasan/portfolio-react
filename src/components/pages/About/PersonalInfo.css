@@ -1,0 +1,52 @@
+.info-section {
+    color: #ffff;
+    width: 75%;
+    margin: auto;
+    box-shadow: 1px 1px 25px 5px #e2c9ab;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .info-section:hover {
+    animation: shake 0.5s ease-in-out infinite;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .personal-info-body {
+    margin-top: 0rem;
+  }
+  
+  ul {
+    padding-left: 0;
+    margin: 0 2rem;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0rem;
+  }
+  
+  .label {
+    flex: 0.3;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .data {
+    flex: 0.8;
+    font-size: 16px;
+    text-align: left;
+  }
+  

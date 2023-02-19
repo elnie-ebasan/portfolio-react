@@ -1,0 +1,59 @@
+.hello {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: #f8d074;
+}
+
+.name {
+    font-size: 5rem;
+    margin: 1rem 0rem;
+    color: #ffff;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.name:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.webdev {
+    font-size: 18px;
+    color: #ffff;
+}
+
+.home-name {
+    padding: 5rem 6rem;
+    position: relative;
+  }
+  
+.dialog {
+    position: absolute;
+    z-index: 1;
+    top: 75%;
+    right: 51%;
+    transform: translate(50%, 50%);
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 5px 10px rgba(202, 206, 188, 0);
+    border-radius: 5px;
+    width: 500px;
+    /* opacity: 1; */
+    transition: opacity 0.5s ease-in-out;
+}
+  
+  .dialog.show {
+    /* opacity: 1.2; */
+  }
+
+.dialogue-box {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    font-size: 20px;
+}
+  

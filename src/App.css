@@ -1,0 +1,31 @@
+* {
+    border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: cursive;
+    width: 100vw;
+    height: 100vh;
+}
+
+.App {
+    background: linear-gradient(to right, #515669, #747887);
+    background-size: cover;
+    box-sizing: border-box;
+    border: 1px solid black;
+    position: relative;
+}
+
+.color-bg {
+    background: linear-gradient(-45deg, #fedb8a 25%, transparent 25%, transparent 75%, #f7f7f7 75%);
+  }
+
+.App-box {
+    width: 90%;
+    border: 1px solid gray;
+    margin: 4rem auto;
+    background-color: #222538;
+}
+
